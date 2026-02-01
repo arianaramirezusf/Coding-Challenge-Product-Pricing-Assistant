@@ -25,3 +25,12 @@ console.log("breakEvenUnits");
 console.log("isProfitablePerUnit");
 
 
+productName= Headphones
+discountedPrice= 16.99
+finalPriceWithTax= 18.18
+profitPerUnit= 6.18
+breakEvenUnits= 841
+isProfitablePerUnit= true
+
+
+
