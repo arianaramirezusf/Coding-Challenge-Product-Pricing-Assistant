@@ -11,12 +11,11 @@ let salesTaxRate = 0.07;
 let fixedMonthlyCosts = 5200;
 
 
-discountedPrice = basePrice * (1 - discountRate);
-finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
-profitPerUnit = finalPriceWithTax - costPerUnit;
-breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
-isProfitablePerUnit = profitPerUnit > 0;
-
+let discountedPrice = basePrice * (1 - discountRate);
+let finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
+let profitPerUnit = finalPriceWithTax - costPerUnit;
+let breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
+let isProfitablePerUnit = profitPerUnit > 0;
 
 console.log("productName");
 console.log("discountedPrice");
@@ -24,3 +23,5 @@ console.log("finalPriceWithTax");
 console.log("profitPerUnit");
 console.log("breakEvenUnits");
 console.log("isProfitablePerUnit");
+
+
